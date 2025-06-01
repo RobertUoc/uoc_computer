@@ -1,0 +1,18 @@
+@supports (display: grid) {
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+  }
+
+  @supports (initial-letter: 4) or (-webkit-initial-letter: 4) {
+    p::first-letter {
+       -webkit-initial-letter: 4;
+       initial-letter: 4;
+       margin-right: 0.5em;
+       font-weight: bold;
+       color: $color-first;           
+    }
+  }
+
+  

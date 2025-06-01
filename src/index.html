@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.css"><!-- do not remove this line! -->       
+    
+    <title>Jornades - Science Conference</title>
+  </head>
+  <body>
+    
+    <include src="./views/header.html"></include>    
+
+    <div class="container mx-auto">      
+      <div id="carouselExample" class="carousel slide mt-5 mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/kioto.jpg" class="block w-full" alt="Kioto">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/dubrovnik.jpg" class="block w-full" alt="Dubrovnik">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/paris.jpg" class="block w-full" alt="Paris">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/santorini.jpg" class="block w-full" alt="Santorini">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/venecia.jpg" class="block w-full" alt="Venecia">
+            </div>            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>      
+      <div class="catchy-section mb-3 text-center rounded-full">
+        <h2 class="text-2xl font-bold">Computer Science Conference 2025</h2>
+        <div class="text-lg">This will be a creative <a href="#" class="text-blue-500 hover:underline">Robert Artesona</a></div>
+      </div>   
+    </div>
+
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+
+  </body>
+</html>
+
+
